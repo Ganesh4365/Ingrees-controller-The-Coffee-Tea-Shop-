@@ -1,18 +1,8 @@
-# Ingrees-controller-The-Coffee-Tea-Shop-
-Dual-App Router
-
-
 # ☕ Coffee & Tea: Intelligent Path-Based Routing
 > **Centralized Traffic Management & Cost Optimization in Kubernetes**
 
-<p align="center">
-  <img src="./routing-diagram.png" alt="Kubernetes Ingr![Uploading unnamed (1).png…]()
-ess Architecture" width="700">
-</p>
+![Uploading unnamed (1).png…]()
 
-![K8s](https://img.shields.io)
-![Nginx](https://img.shields.io)
-![Traffic](https://img.shields.io)
 
 ## 🌟 Project Overview
 This project implements a **Kubernetes NGINX Ingress Controller** to manage microservices via path-based routing. By replacing multiple expensive cloud Load Balancers with a single entry point, we achieve a cost-effective, high-availability architecture.
@@ -41,5 +31,3 @@ The Ingress Controller acts as a reverse proxy, routing external clients to the 
 Deploy the Coffee and Tea microservices along with their internal ClusterIP services:
 ```bash
 kubectl apply -f shop.yaml
-
-
