@@ -1,17 +1,11 @@
 # ☕ Coffee & Tea: Intelligent Path-Based Routing
 > **Centralized Traffic Management & Cost Optimization in Kubernetes**
 
-![Uploading unnamed (1).png…]()
-
+![Architecture Diagram](./your-imag<img width="2752" height="1536" alt="unnamed (1)" src="https://github.com/user-attachments/assets/6206679e-37d6-4130-8307-4b3f4e5c4c21" />
+e-link.png)
 
 ## 🌟 Project Overview
 This project implements a **Kubernetes NGINX Ingress Controller** to manage microservices via path-based routing. By replacing multiple expensive cloud Load Balancers with a single entry point, we achieve a cost-effective, high-availability architecture.
-
-### Key Technical Features:
-*   **Layer 7 Routing:** Intelligent request matching based on URL suffixes (`/coffee` or `/tea`).
-*   **Endpoint Discovery:** Automated pod identification via the Kubernetes API.
-*   **Path Rewriting:** Utilizes NGINX annotations to ensure backend services receive clean requests.
-*   **Resource Efficiency:** Optimal traffic management in multi-node clusters.
 
 ---
 
